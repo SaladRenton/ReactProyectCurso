@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-color: green; /* Cambia el fondo a verde */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .App-logo {
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: transparent;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +42,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.name {
+  width: 30%; /* El nombre ocupa el 30% de la pantalla */
+  font-size: 4vw; /* Ajusta el tamaño del texto según sea necesario */
+  text-align: center;
 }
